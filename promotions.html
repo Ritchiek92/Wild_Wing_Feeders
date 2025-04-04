@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset='utf-8'>
+	<title>Promotions</title>
+	<meta name="description" content="This is a promotions page for Wild Wing Feeders">
+	<meta name="author" content="Kayla Ritchie">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  
+<link href="https://fonts.googleapis.com/css2?family=Delius&family=Gowun+Dodum&family=Shrikhand&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="top-container">
+<div class="Logo" onclick="window.location.href='home.html'">
+			<img class="img-responsive img-circle-margin" src="images/logo.png"
+             style="width:15%"  align="left" alt="img-logo" />
+            <h1>Wild Wing Feeders</h1>
+            </div>
+<div class="navbar" id="myNavbar">
+  <a class="active" href="promotions.html">Promotions</a>
+  <a href="home.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="birdfeeders.html">Bird Feeders</a>
+  <a href="contact.html">Contact Us</a>
+  <a href="support.html">Support</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+ </div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myNavbar");
+  if (x.className === "navbar") {
+    x.className += " responsive";
+  } else {
+    x.className = "navbar";
+  }
+}
+</script>
+</div>
+<div id="wrapper">
+
+<div class="promotions">
+<h1>Amazing Offer!</h1>
+<h2>Get 50% off your first order!</h2>
+<img src="images/promotion.jpg" alt="Product Image" style="width: 50%" style="margin:20px auto" style="display:block">
+
+<h2>Limited time offer. Don't miss out!</h2>
+<h2>Use Code: FIRSTORDERWWF </h2>
+
+<a href="birdfeeders.html">Shop Now</a>
+</div>
+
+<div class="promotions">
+
+<h1>Amazing Offer!</h1>
+<h2>Get free shipping this week ONLY!</h2>
+<img src="images/shipping.png" alt="Shipping Image" style="width: 50%" style="margin:20px auto" style="display:block">
+
+<h2>Limited time offer. Don't miss out!</h2>
+<h2>Use Code: SHIPPING25WWF </h2>
+
+<a href="birdfeeders.html">Shop Now</a>
+</div>
+
+
+<footer>
+		<small>© 2025 Wild Wing Feeders - WGD251 Responsive Web Designs. All rights reserved.</small>
+	</footer>
+</div>
+</body>
+</html>

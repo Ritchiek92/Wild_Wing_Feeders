@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset='utf-8'>
+	<title>Contact Us</title>
+	<meta name="description" content="This is a contacts page for Wild Wing Feeders">
+	<meta name="author" content="Kayla Ritchie">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  
+<link href="https://fonts.googleapis.com/css2?family=Delius&family=Gowun+Dodum&family=Shrikhand&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="top-container">
+<div class="Logo" onclick="window.location.href='home.html'">
+			<img class="img-responsive img-circle-margin" src="images/logo.png"
+             style="width:15%"  align="left" alt="img-logo" />
+            <h1>Wild Wing Feeders</h1>
+            </div>
+<div class="navbar" id="myNavbar">
+  <a class="active" href="contact.html">Contact Us</a>
+  <a href="home.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="birdfeeders.html">Bird Feeders</a>
+  <a href="promotions.html">Promotions</a>
+  <a href="support.html">Support</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+ </div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myNavbar");
+  if (x.className === "navbar") {
+    x.className += " responsive";
+  } else {
+    x.className = "navbar";
+  }
+}
+</script>
+</div>
+<div id="wrapper">
+<img class="img-responsive" src="images/support.png" style="width: 40%" align="center" alt="support"/>
+<div class="features">
+<h1>Contact for Support</h1>
+<p>We’re here to help! If you have any questions, need assistance, or want to make a warranty claim, please reach out to our support team.</p>
+ <h2> Contact Information:</h2>
+  <ul>
+  <li>Email: support@wildwingfeeders.com</li>
+  <li>Phone: 555-555-5555</li>
+  <li>Website: www.wildwingfeeders/support</li>
+  <li>Address: 1123 main street Gardner, KS 66030 </li>
+</ul>
+<h2>Support Hours:</h2>
+	<ul>
+	<li>Monday-Friday: 9AM-5PM (CST)</li>
+	<li>Saturday-Sunday: CLOSED </li>
+	</ul>
+<p>For quick answers, visit our FAQ section or reach out via our live chat on the website. We’re dedicated to ensuring you have the best experience with our Smart Bird Feeder!</p>
+</div>
+<div class="container">
+  <div style="text-align:center">
+    <h2>Contact Us</h2>
+    <p>Swing by for a smart bird feeder, or leave us a message:</p>
+  </div>
+  <div class="row2">
+    <div class="column2">
+      <img src="images/logo.png" style="width:100%">
+    </div>
+    <div class="column2">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="lname">Phone Number</label>
+        <input type="text" id="pnumber" name="phonenumber" placeholder="555-555-5555..">
+		<label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+
+<footer>
+		<small>© 2025 Wild Wing Feeders - WGD251 Responsive Web Designs. All rights reserved.</small>
+	</footer>
+</div>
+</body>
+</html>

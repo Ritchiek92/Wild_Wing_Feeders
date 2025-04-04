@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset='utf-8'>
+	<title>Bird Feeders</title>
+	<meta name="description" content="This is a product page for Wild Wing Feeders">
+	<meta name="author" content="Kayla Ritchie">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  
+<link href="https://fonts.googleapis.com/css2?family=Delius&family=Gowun+Dodum&family=Shrikhand&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="top-container">
+<div class="Logo" onclick="window.location.href='home.html'">
+			<img class="img-responsive img-circle-margin" src="images/logo.png"
+             style="width:15%"  align="left" alt="img-logo" />
+            <h1>Wild Wing Feeders</h1>
+            </div>
+<div class="navbar" id="myNavbar">
+<a  class="active" href="birdfeeders.html">Bird Feeders</a>
+  <a href="home.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="promotions.html">Promotions</a>
+  <a href="contact.html">Contact Us</a>
+  <a href="support.html">Support</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+ </div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myNavbar");
+  if (x.className === "navbar") {
+    x.className += " responsive";
+  } else {
+    x.className = "navbar";
+  }
+}
+</script>
+</div>
+<div id="wrapper2">
+
+<div class="features">
+<h1>Bird Feeder Features</h1>
+<p>A Wild Wing Feeder system is a technologically enhanced bird feeder designed 
+to attract, monitor, and care for birds while minimizing environmental impact. Key features include:
+  <ul>
+  <li>Smart Monitoring: Uses cameras and AI to identify bird species, track visits, and gather data.</li>
+  <li>Eco-Friendly Materials: Built from sustainable, biodegradable, or recycled materials to reduce environmental harm.</li>
+  <li>Solar Power: Utilizes solar panels for energy efficiency, reducing reliance on traditional power sources.</li>
+  <li>Automated Feeding: Dispenses food at set intervals, preventing waste and ensuring a steady supply for birds.</li>
+  <li>Weather-Resistant Design: Protects food from rain, snow, and pests, maintaining a clean feeding area.</li>
+  <li>App Integration: Allows users to track bird activity, receive notifications, and adjust settings via a smartphone app.</li>
+</ul>
+</p>
+</div>
+
+<div class="card2">
+  <img src="images/tall_feeder.jpg" alt="Tall Feeder" style="width:100%">
+  <h4>Tall Bird Feeder</h4>
+  <p class="price">$45.99</p>
+  <p>Some text about the feeder. Tall bird feeder with eco-friendly options.</p>
+  <p><button>Add to Cart</button></p>
+</div>
+<div class="card2">
+  <img class="product" src="images/eco_friendly.jpg" alt="Eco-friendly Feeder" style="width:100%">
+  <h4>Eco-friendy Feeder</h4>
+  <p class="price">$85.99</p>
+  <p>Some text about the eco-friendly feeder. Eco-friendly bird feeder with solar power options.</p>
+  <p><button>Add to Cart</button></p>
+</div>
+<div class="card2">
+  <img class="product" src="images/solar_power2.jpg" alt="Solar Power Feeder" style="width:100%">
+  <h4>Solar Power Feeder</h4>
+  <p class="price">$100</p>
+  <p>Some text about the solar power feeder. Solar power bird feeder with eco-friendly options.</p>
+  <p><button>Add to Cart</button></p>
+</div>
+<div class="bottom-container">
+<footer>
+		<small>© 2025 Wild Wing Feeders - WGD251 Responsive Web Designs. All rights reserved.</small>
+	</footer>
+</div>
+</div>
+</body>
+</html>
